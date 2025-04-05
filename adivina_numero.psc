@@ -20,6 +20,8 @@ Algoritmo adivina_numero //ponemos adivina_numero porque de eso se trata el jueg
 	
 	si num_secreto= num_ingresado Entonces
 		escribir "exacto usted adivino en ", 11 - intentos " intentos"  
+	sino 
+		escribir "el numero era: ", num_secreto// si no lo adivino se le indica cual era
 	FinSi // en este si se deja saber si el usuario adivino o no el numero
 	
 FinAlgoritmo
